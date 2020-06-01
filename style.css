@@ -1,0 +1,397 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url(./font/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: 'Nunito';
+    src: url(./font/Nunito/Nunito-Regular.ttf);
+}
+body{
+    background: rgba(224, 223, 223, 0.877);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.container{
+    width: 76%;
+
+    position: absolute;
+
+    left: 12%;
+
+    background: #ffffff;
+}
+.back_out{
+    background: transparent;
+}
+header{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding:  30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+    text-decoration: none;
+
+    color: #212353;
+
+    cursor: pointer;
+
+    font-family: Helvetica, sans-serif;
+}
+.nav_links li a:houver{
+    color: #0088a9;
+}
+button{
+    height: 60px;
+
+    border-radius: 50px;
+    border: none;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+
+    color: #212353;
+}
+#learn-more{
+    margin-top: 25px;
+    width: 160px;
+    background: #9C69E2;
+    margin-left: 10%;
+}
+.description{
+    width: 350px;
+    height: 120px;
+
+    position: relative;
+    left: 10%;
+    z-index: 1;
+
+    padding-top: 25px;
+
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+h1{
+    width: 545px;
+    height: auto;
+
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+
+    position: relative;
+    z-index: 1;
+    left: 10%;
+}
+.headline, p{
+    color: #212353;
+}
+.headline img{
+    width: 550px;
+    height: 300px;
+    float: right;
+    position: absolute;
+    top: 230px;
+    right: 5%;
+}
+#second-frame{
+    background: rgba(240, 99, 184, 0.15);
+
+    width: 80%;
+    height: 530px;
+
+    margin: 10% 10% 7% 10%;
+
+    border-radius: 50px;
+    
+}   
+#second-frame img{
+    display: inline-block;
+
+    width: 300px;
+    height: 450px;
+    
+    position: relative;
+    top: 42px;
+}
+.text{
+    display: inline-block;
+
+    margin-left: 5%;
+    margin-bottom: 100px;
+
+    color: #212353;
+}
+.frame-two{
+    position: absolute;
+
+    width: 400px;
+
+    color: #212353;
+}
+h2{
+    height: auto;
+
+    font-size: 30px;
+    font-family: 'Montserrat';
+
+    padding-bottom: 5%;
+
+    right: 15%;
+    top: 750px;
+}
+.description_frame_two{
+    right: 15%;
+    top: 850px;
+
+    height: 170px;
+
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+.third-frame{
+    display: grid;
+    grid-template-rows: 160px 740px ;
+
+    color: #212353;
+}
+#title{
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+
+    justify-items: right;
+    align-content: center;
+}
+.features{
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    margin-top: 50px;
+
+}
+.card{
+    width: 350px;
+    height: 300px;
+
+    background: rgba(156, 105, 226, 0.2);
+
+    border-radius: 50px;
+
+    justify-items: center;
+}
+.aside_right{
+    margin-right: 15%;
+
+}
+.aside_left{
+    margin-right: 7%
+}
+.img_right{
+    left: 490px;
+}
+.img_left{
+    left: 25px;
+}
+.frame_tree{
+    width: 220px;
+
+    margin-left: 50%;
+
+    transform: translateX(-30%);
+}
+h3{
+    margin-top: 25%;
+    margin-bottom: 2%;
+
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+.sub_title{
+    font-family: 'Nunito';
+    font-size: 14px;
+
+    color: #212353;
+    text-align: center;
+
+}
+p.frame_tree{
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+#fourth-frame{
+    width: 85%;
+    height: 580px;
+
+    border-radius: 50px;
+    margin: 5% 7%;
+
+    background:rgba(155, 105, 226, 0.774);    
+}
+.card_frame_four{
+    width: 600px;
+    height: 330px;
+
+    background: #ffffff;
+
+    border-radius: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-items: center;
+
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frame_four{
+    width: 300px;
+    
+    font-family: 'Nunito';
+    font-size: 14px;
+
+    margin-top: 40%;
+    margin-right: 20%;
+}
+strong, span{
+    color: #212353;
+    font-family: 'Montserrat';
+}
+span{
+    font-size: 10px;
+}
+.img_frame_four{
+    margin-top: 30%;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Montserrat';
+
+    position: relative;
+    left: 150px;
+    top: 80px
+}
+.selector{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 45%;
+
+}
+.selector li{
+    width: 10px;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background: #f1f1f1;
+    opacity: 0.5;
+    cursor: pointer;
+    list-style: none;
+}
+#fiveth-frame{
+    width: 100%;
+    height: 200px;
+
+    border-radius: 50px;
+}
+footer{
+    border-top: solid rgba(250, 248, 248, 0.877) 2px;
+    padding-top: 2%;
+
+}
+.middle{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin-right: 10%;
+}
+.btn_social{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #9C69E2;
+    overflow: hidden;
+    position: relative;
+}
+.btn_social i{
+    line-height: 50px;
+    font-size: 16px;
+    transition: 0.2s linear;
+}
+.btn_social:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btn_social::before{
+
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #9C69E2;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn_social:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+h5{
+    display: inline-block;
+    margin-left: 45%;
+
+    font-family: 'Montserrat';
+    font-size: small;
+
+    color: #212353;
+}

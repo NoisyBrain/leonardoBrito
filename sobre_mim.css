@@ -1,0 +1,74 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url(./font/Nunito/Nunito-Regular.ttf);
+}
+body{
+    background: rgba(224, 223, 223, 0.877);
+    margin: 0;
+}
+.container{
+    width: 60%;
+    padding: 2%;
+    margin-left: 50%;
+    background: #ffffff;
+    transform: translateX(calc(-50%));
+}
+div#sobre_mim, div#mychannel{
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(calc(-50%)); 
+}
+div#missao, div#valores , div#historia, div#mychannel{
+    border-radius: 15px;
+
+    margin-bottom: 5%;
+    padding: 5%;
+    box-sizing: content-box;
+}
+div#mychannel ul li{
+    box-sizing: content-box;
+    list-style: none;
+    border: #000000 solid 1px;
+    border-radius: 15px;
+    width: 90%;
+    padding: 5%;   
+    
+}
+div#mychannel ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+h2{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+p, li{
+    font-family: 'Nunito';
+    text-align: justify;
+}
+div#mychannel img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+div#missao{
+    background: rgba(240, 99, 184, 0.15);
+}
+div#valores{
+    background:rgba(155, 105, 226, 0.774);
+}
+div#historia{
+    background: palevioletred;
+}
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+}
+.historia{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 5%;
+}

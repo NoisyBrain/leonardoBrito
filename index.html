@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Brito</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+
+    <script src="https://kit.fontawesome.com/56bc78d12e.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-logo.ico">
+    
+    <link rel="stylesheet" href="style2.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div id="first-frame">
+                <div id="top">
+                   <header>
+    
+                        <div class="logo">
+                            <svg width="30" height="50" id="circle">
+    
+                                <circle cx="20" cy="20" r="10" fill="#9C69E2"/>    
+    
+                            </svg>
+    
+                            <svg width="40" height="50">
+    
+                                <rect rx="10" ry="10" width="20" height="35" fill="red" opacity="0.5" />
+    
+                            </svg>
+                        </div> 
+    
+                        <nav>
+                            <ul class="nav_links">
+    
+                                <li>
+                                  <a class="pt_br" href="./sobre_mim.html">Sobre mim</a>
+                                  <a class="en_us hidden" href="./sobre_mim.html">About me</a>
+                                </li>
+    
+                                <li>
+                                  <a class="pt_br" href="./contato.html">Contato</a>
+                                  <a class="en_us hidden" id="cont_en"  href="./contato.html">Contact</a>
+                                </li>
+    
+                                <li>
+                                  <a class="pt_br" href="./img/Curriculo2.0.pdf" download="Curriculo.pdf">Currículo</a>
+                                  <a class="en_us hidden" href="./img/Curriculo2.0.pdf" download="Resume.pdf">Resume</a>
+                                </li>
+    
+                                <li>
+                                  <a class="pt_br" href="#title">Projetos</a>
+                                  <a class="en_us hidden" href="#title">Works</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div id="frango_assado">
+                            <div class="switch__container">
+                                <input onclick="modo()" id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+                                <label for="switch-shadow"></label>
+                            </div><br>
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>English</span>
+                        </div>
+                    </header>
+                </div>
+                <div class="headline">
+    
+                    <h1 class="back_out pt_br">Olá,</h1>
+                    <h1 class="back_out pt_br">Seja bem-vindo</h1>
+                    <h1 class="back_out en_us hidden">Hello and Welcome</h1>
+                    
+                    <div class="description back_out">
+                        <p class="pt_br">Eu sou o Leonrdo e esse é meu curriculo web. Ao longo da página estarei te mostranto um pouco do meu trabalho. Caso tenha alguma dúvida vá ao top da página, no menu, e clique em Contato ou clique no botão abaixo.</p>
+                        <p class="en_us hidden">I'm Leonardo and this is my web resume. Throughout the page I will be showing you a little of my work. If you have any questions go to the top of the page, in the menu, and click on Contact or click on the button below.</p>
+                    </div>
+                    <button class="btn pt_br" id="learn-more">saiba mais</button>
+                    <button class="btn en_us hidden" id="learn-more">learn more</button>
+                    
+                    <img class="back_out" src="./img/image1.svg">
+                </div>
+            </div>
+            <div id="second-frame">
+                <img class="back_out" src="./img/image2.svg">
+              
+                <h2 class="frame-two back_out pt_br">Desenvolvimento de interfaces amigáveis</h2>
+                <h2 class="frame-two back_out en_us hidden">Development of friendly interfaces</h2>
+    
+                <p id="suco_de_fruta"class="frame-two description_frame_two back_out pt_br">Interfaces amigáveis e práticas, cores agradáveis e fontes confortáveis aos olhos são a triades de qualquer profissionais que trabalha com projetos visuais. E pensando no Desenvolvimento dessas habilidades aqui estão alguns projetos de UX/UI.</p><p id="suco_de_fruta"class="frame-two description_frame_two back_out en_us hidden">Friendly and practical interfaces, pleasant cores and comfortable sources for the eyes are three groups of professionals who work with visual projects. And thinking about developing these skills, here are some UX / UI projects.</p>
+    
+            </div>
+            <div class="third-frame">
+                <div id="title">
+                    <h2 class="pt_br">Projetos</h2>
+                    <h2 class="en_us hidden">Works</h2>
+                    <p class="sub_title pt_br">Aqui estão alguns projetos desenvolvidos com o intuito de praticar as diferentes linguagens de programação aprendidas.</p>
+                    <p class="sub_title en_us hidden">Here are some projects developed in order to practice the different programming languages learned.</p>
+                </div>
+                <div class="cards">
+                    
+                    <div id="first_card" class="card aside_left">
+                        <img class="features back_out img_left" src="./img/image3 1.svg" >
+    
+                        <h3 class="frame_tree back_out">Java</h3>
+                        <p class="frame_tree back_out pt_br">Aplicação para inscrição de residências e  cálculo de IPTU. Projeto desenvolvido na disciplina de programação orienta a objeto I.</p>
+                        <p class="frame_tree back_out en_us hidden">Application for registration of residences and calculation of IPTU. Project developed in the discipline of programming oriented to object I.</p>
+                    </div>
+                    <div  id="second_card" class="card aside_right ">
+                        <img class="features back_out img_right" src="./img/image4.svg">
+                        
+                        <h3 class="frame_tree back_out">Csharp</h3>
+                        <p class="frame_tree back_out pt_br">O projeto simula, o funcionamento de uma agência bancaria onde há abertura de conta, deposito, saque e transferência de uma conta para outra. Projeto desenvolvido de forma independente </p>
+                        <p class="frame_tree back_out en_us hidden">The project simulates the operation of a bank branch where an account is opened, deposits are withdrawn and transfers from one account to another. Project developed independently. </p>
+                    </div>
+    
+                    <div id="third_card" class="card aside_left">
+                        <img class="features back_out img_left" src="./img/image5 1.svg">
+    
+                        <h3 class="frame_tree back_out">JavaScript</h3>
+                        <p class="frame_tree back_out pt_br">Projeto desenvolvido na disciplina de aplicação web da faculdade. A aplicação visá fazer conversões entre quatro moedas Euro, Dolar, Libra esterlina e Real (EUR, USD, GBP e BRL).</p>
+                        <p class="frame_tree back_out en_us hidden">Project developed in the discipline of web application of the college. The application aims to make conversions between four currencies Euro, Dollar, Pound Sterling and Real (EUR, USD, GBP and BRL).</p>
+                    </div>
+                    <div id="fourth_card" class="card aside_right">
+                        <img class="features back_out img_right" src="./img/image6 1.svg">
+    
+                        <h3 class="frame_tree back_out">Python</h3>
+                        <p class="frame_tree back_out pt_br">Projeto desenvolvido na disciplina de laboratório I. O projeto visá a analise estátistica de um bando de dados (arquivo.csv).</p>
+                        <p class="frame_tree back_out  en_us hidden">Project developed in laboratory discipline I. The project aims at the statistical analysis of a database (file.csv).</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fourth-frame">
+              <h4 class="back_out pt_br">Depoimentos</h4>
+              <h4 class="back_out en_us hidden">Testimonial</h4>
+                <li  class="card_frame_four nav_links" >
+                  
+                    <img class="img_frame_four terceiro esconder" src="./img/Ellipse 76.svg">          
+                    <p class="frame_four back_out pt_br terceiro esconder"><strong class="terceiro esconder">John Fang</strong><br>
+                    <span class="terceiro esconder">wordfaang.com</span><br><br>
+                    Excelente profissional, seja no habito técnico quando no trabalho em equipe.</p>
+                    <p class="frame_four back_out  en_us hidden terceiro esconder"><strong class="terceiro esconder">John Fang</strong><br>
+                    <span class="terceiro esconder">wordfaang.com</span><br><br>
+                    Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+    
+                    <img class="img_frame_four primeiro esconder" src="./img/Ellipse 76-1.svg">
+                    <p class="frame_four back_out pt_br primeiro esconder"><strong class="primeiro esconder">John Fang</strong><br>
+                    <span class="primeiro esconder">wordfaang.com</span><br><br>
+                    Excelente profissional, seja no habito técnico quando no trabalho em equipe.</p>
+                    <p class="frame_four back_out  en_us hidden primeiro esconder"><strong class="primeiro esconder">John Fang</strong><br>
+                    <span class="primeiro esconder">wordfaang.com</span><br><br>
+                    Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+    
+                    <img class="img_frame_four segundo esconder" src="./img/Ellipse 76-2.svg">
+                    <p class="frame_four back_out pt_br segundo esconder"><strong class="segundo esconder">John Fang</strong><br>
+                    <span class="segundo esconder">wordfaang.com</span><br><br>
+                    Excelente profissional, seja no habito técnico quando no trabalho em equipe.</p>
+                    <p class="frame_four back_out  en_us hidden segundo esconder"><strong class="segundo esconder">John Fang</strong><br>
+                    <span class="segundo esconder">wordfaang.com</span><br><br>
+                    Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
+                </li>
+              <div class="selector back_out">
+                <li id="primeiro" onclick="slide('primeiro', 'segundo', 'terceiro')"></li>
+                <li id="segundo" onclick="slide('segundo', 'primeiro', 'terceiro')"></li>
+                <li id="terceiro" onclick="slide('terceiro', 'segundo', 'primeiro')"></li>
+              </div>
+                
+            </div>
+            <div id="fiveth-frame">
+                <footer>
+                    <h5 class="pt_br">Social Media</h5>
+                    <h5 class="en_us hidden">Social Media</h5>
+                    <div class="middle">
+                        <a href="#" class="btn_social">
+                            <i class="back_out fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn_social">
+                            <i class="back_out fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn_social">
+                            <i class="back_out fab fa-google"></i>
+                        </a>
+                        <a href="#" class="btn_social">
+                            <i class="back_out fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn_social">
+                            <i class="back_out fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
